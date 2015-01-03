@@ -22,5 +22,6 @@ WORKDIR /var/lib/shadowvpn
 EXPOSE 4000
 
 COPY start.sh /usr/local/bin/shadowvpn.sh
+RUN chmod 744 /usr/local/bin/shadowvpn.sh
 
 ENTRYPOINT ["/usr/local/bin/shadowvpn.sh"]

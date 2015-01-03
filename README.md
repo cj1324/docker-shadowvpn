@@ -1,4 +1,4 @@
-docker-debian-shadownvpn
-========================
+docker-shadowvpn
+================
 
-docker-debian-shadownvpn server
+Base on CentOS Docker Image

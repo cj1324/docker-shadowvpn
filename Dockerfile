@@ -2,7 +2,7 @@ FROM centos:latest
 
 MAINTAINER hanchen<chen1324@gmail.com>
 
-RUN yum update -y && yum groupinstall 'Development Tools' -y && yum install wget git cmake -y
+RUN yum update -y && yum groupinstall 'Development Tools' -y && yum install wget git cmake iptables-services -y
 
 ENV REPO_NAME ShadowVPN
 ENV REPO_GIT_URL https://github.com/cj1324/ShadowVPN.git
